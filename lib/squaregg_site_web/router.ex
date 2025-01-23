@@ -17,7 +17,8 @@ defmodule SquareggSiteWeb.Router do
   scope "/", SquareggSiteWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    # get "/", PageController, :home
+    live "/", LandingPage
   end
 
   # Other scopes may use custom stacks.

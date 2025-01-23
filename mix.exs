@@ -79,7 +79,8 @@ defmodule SquareggSite.MixProject do
         "tailwind squaregg_site --minify",
         "esbuild squaregg_site --minify",
         "phx.digest"
-      ]
+      ],
+      format: ["format mix.exs 'lib/**/*.{ex,exs,heex}' 'test/**/*.{ex,exs,heex}'"]
     ]
   end
 end
