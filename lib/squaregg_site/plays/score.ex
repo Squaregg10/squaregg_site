@@ -5,7 +5,7 @@ defmodule SquareggSite.Score do
   alias SquareggSite.Repo
   alias SquareggSite.Score
 
-  schema "leaderboard" do
+  schema "scores" do
     field :user, :string
     field :score, :integer
 
